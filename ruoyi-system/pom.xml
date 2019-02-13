@@ -10,10 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <artifactId>ruoyi-system</artifactId>
-    
-    <description>
-	    system系统模块
-	</description>
+    <description>system系统模块</description>
 	
     <dependencies>
 		<!-- 通用工具-->
@@ -23,5 +20,4 @@
             <version>${ruoyi.version}</version>
         </dependency>
     </dependencies>
-	
 </project>
