@@ -1,10 +1,9 @@
 package com.ruoyi.framework.config;
 
-import java.util.Date;
-
+import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;
 
-import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import java.util.Date;
 
 public class CustomMetaObjectHandler implements MetaObjectHandler {
 

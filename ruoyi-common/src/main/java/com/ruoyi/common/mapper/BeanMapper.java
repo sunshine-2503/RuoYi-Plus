@@ -1,13 +1,12 @@
 package com.ruoyi.common.mapper;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.google.common.collect.Lists;
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.BeanUtils;
 
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.google.common.collect.Lists;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 简单封装Dozer, 实现深度转换Bean<->Bean的Mapper.实现:
@@ -16,8 +15,6 @@ import com.google.common.collect.Lists;
  * 2. 返回值类型转换.
  * 3. 批量转换Collection中的所有对象.
  * 4. 区分创建新的B对象与将对象A值复制到已存在的B对象两种函数.
- *
- * 
  */
 public class BeanMapper {
 
